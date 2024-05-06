@@ -1,0 +1,38 @@
+.open-sans-uniquifier {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+}
+.some-text {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.decoreted {
+  text-decoration: line-through;
+}
+
+.uper {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.overline {
+  text-decoration: overline;
+  text-decoration-style: wavy;
+  text-decoration-color: #6c15e6;
+  word-spacing: 30px;
+  line-height: 30px;
+  text-shadow: 2px 2px 5px;
+  color: #310968;
+}
+
+.letterspacing {
+  letter-spacing: 5px;
+  text-decoration: underline;
+  text-decoration-style: double;
+}

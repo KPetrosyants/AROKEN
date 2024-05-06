@@ -1,0 +1,35 @@
+body {
+  background: #323131;
+}
+
+.text {
+  font-size: 30px;
+  color: #fff;
+}
+
+.block {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  bottom: 100px;
+  right: 0;
+}
+.block__inner {
+  height: 100%;
+  width: 50%;
+  border-radius: 10px;
+  background: #a4a0a0;
+  position: absolute;
+  top: 0;
+  right: 50px;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #ff0b0b;
+  position: relative;
+  left: 100px;
+  bottom: 50px;
+}

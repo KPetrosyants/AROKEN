@@ -1,0 +1,46 @@
+body {
+  background: #7b7b7b;
+}
+
+.area {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background: #000;
+  border-radius: 10px;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box::before {
+  transition: width 2s linear 0s;
+  content: "";
+  width: 0px;
+  height: 50px;
+  background: #fff;
+  position: absolute;
+  top: -100px;
+  left: -200px;
+}
+.box:hover::before {
+  width: 700px;
+}
+.box h1 {
+  transition: opacity 0s linear 2s;
+  opacity: 0;
+  color: burlywood;
+  font-size: 40px;
+}
+
+.box:hover.box h1 {
+  opacity: 1;
+}

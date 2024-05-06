@@ -1,0 +1,38 @@
+body {
+  background: #7b7b7b;
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+  font-size: 40px;
+  color: #fff;
+  position: relative;
+}
+
+h1::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ff0000;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  border: 2px solid #fff;
+}
+h1::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #1100ff;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  border: 2px solid #fff;
+}
