@@ -1,63 +1,12 @@
-// const user = {
-//   name: "konstantin",
-//   age: 23,
-//   driversLicense: true,
-//   isAdmin: true,
-//   sayHello(str) {
-//     console.log(`Hello ${str}`);
-//   },
-// };
+const arrNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 22, 33, 44, 55, 66, 77, 88, 99, 100];
 
-// user.sayHello("friend");
-
-const people = [
-  {
-    nave: "vasya",
-    age: 23,
-    isAdmin: true,
-  },
-  {
-    nave: "kostya",
-    age: 23,
-    isAdmin: true,
-  },
-  {
-    nave: "masha",
-    age: 23,
-    isAdmin: false,
-  },
-  {
-    nave: "lena",
-    age: 43,
-    isAdmin: false,
-  },
-  {
-    nave: "dasha",
-    age: 20,
-    isAdmin: true,
-  },
-  {
-    nave: "sasha",
-    age: 16,
-    isAdmin: false,
-  },
-  {
-    nave: "anya",
-    age: 40,
-    isAdmin: true,
-  },
-  {
-    nave: "serega",
-    age: 35,
-    isAdmin: true,
-  },
-];
-
-function simpleUsers(usersArr) {
-  let simpleUsers = 0;
-  usersArr.forEach((user) => {
-    if (!user.isAdmin) simpleUsers++;
-  });
-  return console.log(simpleUsers);
+for (let i = 0; i < arrNum.length; i++) {
+  const element = arrNum[i];
+  if (!(element % 2)) console.log(element);
 }
-simpleUsers(people);
+
+const colors = ["красный", "оранжевый", "желтый", "зеленый", "голубой", "синий", "фиолетовый"];
+for (let i = colors.length - 1; i >= 0; i--) {
+  const element = colors[i];
+  console.log(element);
+}

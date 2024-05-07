@@ -1,8 +1,9 @@
-// const обьявляет переменную БЕЗ возможности изменения ее содержимого
-// let обьявляет переменную C возможности изменения ее содержимого
+//
+const days = 365;
+const monthInYear = Math.floor(365 / 30);
 
-const myName = "Константин";
-const myFamily = "Петросянц";
-let myAge = 23;
-let myHobbi = "Программирование";
-const myCar = "suzuki";
+let value = 81 ** 0.5;
+
+let valueSecond = 81 ** 0.5 / 9;
+
+console.log(valueSecond);
