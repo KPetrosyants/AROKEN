@@ -17,5 +17,5 @@ while (i < 11) {
 let a = 10;
 while (a > 0) {
   console.log(a);
-  i--;
+  a--;
 }
