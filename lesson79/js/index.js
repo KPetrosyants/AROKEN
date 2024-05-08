@@ -10,7 +10,7 @@
 let age = prompt("Ваш возраст?");
 
 switch (true) {
-  case age > 18:
+  case age >= 18:
     alert("Вы  совершеннолетний");
     break;
   default:
